@@ -1,0 +1,36 @@
+.heroSection.hide {
+  display: none;
+  visibility: hidden;
+}
+.mobileNavContainer {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  max-height: 0;
+}
+.mobileNavContainer.show {
+  background-color: black;
+  max-width: 100vw;
+  max-height: 100vh;
+  // transition: ease-in-out 0.2s;
+  overflow-y: hidden;
+}
+.mobileNavMenu {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 3rem;
+  width: 84%;
+}
+.mobileLinks {
+  color: whitesmoke;
+  font-size: 3.5rem;
+  font-family: "Josefin sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+  justify-content: space-between;
+  margin-top: 17rem;
+  margin-left: 4rem;
+  cursor: pointer;
+}
